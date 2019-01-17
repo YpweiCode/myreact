@@ -1,0 +1,27 @@
+<% htmlWebpackPlugin.options.headScripts = htmlWebpackPlugin.options.headScripts || [] %>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="车货匹项目 际链所有">
+  <link rel="shortcut icon" href="svg/bitbug_favicon.ico" type="image/x-icon"/>
+  <title>际链共配平台</title>
+  <!--[if lte IE 10]>
+      <script
+        src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+  <![endif]-->
+  <% for (item of htmlWebpackPlugin.options.headScripts) { %>
+    <script src="<%= item %>"></script>
+  <% } %>
+</head>
+
+<body style = 'background: #F5F6FA;'>
+  <div id="root"></div>
+</body>
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.1&key=21e6c97f05d7d48261e1037f00dee966"></script>
+<script src="//webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+
+</html>

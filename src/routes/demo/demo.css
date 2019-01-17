@@ -1,0 +1,38 @@
+.operateSuccessicon{
+  width:72px;
+  height:72px;
+  border-radius: 50%;
+  background: #52c41a;
+  margin: 16px auto;
+}
+.demoIcon{
+  color:#fff;
+  width:72px;
+  height:72px;
+  font-size: 50px;
+  line-height: 72px;
+}
+.opsuccss{
+  height: 32px;
+  text-align: center;
+  width: 100%;
+  color: #333;
+  font-weight: 700;
+  font-size:24px;
+}
+
+.oparrive{
+  height: 32px;
+  text-align: center;
+  width: 100%;
+  color: #ccc;
+  font-size:12px;
+  margin: 16px 0 0  0;
+}
+.wrapbackground{
+  background:#f5f6fa ;
+}
+.wrapbackgroundfirst{
+  padding-top:24px;
+  background:#f5f6fa ;
+}
